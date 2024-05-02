@@ -3,13 +3,13 @@ const thumbBar = document.querySelector('.thumb-bar');
 const btn = document.querySelector('button');
 const overlay = document.querySelector('.overlay');
 
-const images = ['images\Helldivers2.jpg', 'images\MagicCom.jpg', 'images\paintingmini.jpg', 'images\RallyRace.jpg', 'images\role-playing-games.jpeg'];
+const images = ['Helldivers2.jpg', 'MagicCom.jpg', 'paintingmini.jpg', 'RallyRace.jpg', 'role-playing-games.jpeg'];
 const alts = {
-  'images\Helldivers2.jpg': 'Squad just looking awesome',
-  'images\MagicCom.jpg': 'some folks sitting around a table looking happy but soon to be mad',
-  'images\paintingmini.jpg': 'Someone painting their stress and troubles away',
-  'images\RallyRace.jpg': 'Something I enjoy watching on TV, but would rather try once',
-  'images\role-playing-games.jpeg': 'Folks around the table telling an epic story'
+  'Helldivers2.jpg': 'Squad just looking awesome',
+  'MagicCom.jpg': 'some folks sitting around a table looking happy but soon to be mad',
+  'paintingmini.jpg': 'Someone painting their stress and troubles away',
+  'RallyRace.jpg': 'Something I enjoy watching on TV, but would rather try once',
+  'role-playing-games.jpeg': 'Folks around the table telling an epic story'
 };
 
 for (const image of images) {
